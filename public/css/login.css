@@ -1,0 +1,281 @@
+*{padding:0;margin:0;}
+.top{
+    width:100%;
+    height:105px;
+    background:#F2F2F2;
+}
+.top>div{
+    width:1200px;
+    height:105px;
+    margin:0 auto;
+   
+}
+.top>div>img{
+    vertical-align: middle;
+}
+.top>div>span:nth-child(2){
+    font-size: 46px;
+    font-weight: lighter;
+    color:#DBDBDB;
+    padding-left:18px;
+    display: inline-block;
+    width:10px;
+    height:105px;
+    line-height: 105px;
+      
+}
+.top>div>span:nth-child(3){
+    font-size: 26px;
+    padding-left:18px;
+    display: inline-block;
+    width:160px;
+    height:105px;
+    line-height: 105px;
+      
+}
+/* 登录背景 */
+.banner_login{
+    height:480px;
+    background-image:url('../picture/banner1_login.png');
+    background-repeat: no-repeat;
+    position: relative;
+}
+.banner_login::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.login,.reg{
+    width:343px;
+    height:392px;
+    background:#fff;
+    position: absolute;
+    right:405px;
+    top:44px;
+}
+.login>p:first-child{
+    font-size:18px;
+    font-weight: bold;
+    color:#666;
+    padding-left:22px;
+    padding-top:30px;
+}
+.login>div:nth-child(2){
+   
+    font-size:12px;
+    font-weight: normal;
+    color:#E5004B;
+    padding-left:22px;
+    padding-top:16px;
+}
+.login>p>span{
+    font-size:12px;
+    font-weight:lighter;
+    padding-left:90px;
+    color:#999;
+}
+.login>p>a{
+    color:#137CE9;
+    font-size:12px;
+    text-decoration: none;
+    font-weight:lighter;
+}
+.login>.uname,.upwd{
+border:none;
+width:300px;
+height:42px;
+background:#F9F9F9;
+margin-left:22px;
+margin-top:10px;
+text-indent:35px;
+}
+.login .upwd{
+    margin-top:10px;
+}
+.login .slider{
+    width:298px;
+    height:40px;
+    background:rgba(229,0,75,.4);
+    margin:0 auto;
+    margin-top:10px;
+    position: relative;
+}
+.login>.slider>p{
+    color:#fff;
+    font-size:14px;
+    width:298px;
+    height:40px;
+    line-height:40px;
+    text-align: center;
+
+}
+.login>.slider>.d1{
+    width:52px;
+    height:34px;
+    background:#fff;
+    border-radius: 4px;
+    position: absolute;
+    top:3px;
+    left:3px;
+    font-size:28px;
+    text-align: center;
+    line-height: 34px;
+    color:rgba(229,0,75,.4);
+}
+.login input+span{
+    padding-left:4px;
+    font-size:12px;
+    color:#999;
+}
+.login>.r_uname,.r_upwd{
+    margin-top:12px;
+    margin-left:24px;
+
+}
+.login>a{
+    font-size:12px;
+    color:#999;
+    text-decoration: none;padding-left:36px;
+}
+.login>.r_upwd{
+    margin-left:30px;
+}
+
+.login>input:nth-child(11){
+    width:298px;
+    height:40px;
+    background:#E5004B;
+    /* margin:0 auto; */
+    margin-left:20px;
+    text-align: center;
+    line-height: 40px;
+    margin-top:12px;  
+    color:#fff;
+    font-size:20px;
+}
+.login>p:nth-child(12){
+    font-size:12px;
+    color:#999;
+    padding: 0px;
+    padding-left:24px;
+    padding-top:20px;
+}
+.login .vali_info{
+    display:none;
+}
+
+.login>p:last-child{
+  padding:0px;
+ position: absolute;
+  bottom:24px;
+ right:170px;
+}
+/* 注册 */
+.reg{
+    display:none;
+}
+.reg>p{
+    font-size:18px;
+    font-weight: bold;
+    color:#666;
+    padding-left:22px;
+    padding-top:20px;
+}
+.reg>p:nth-child(2){
+    font-size:12px;
+    font-weight: normal;
+    color:#E5004B;
+    padding-left:22px;
+    padding-top:16px;
+}
+.reg>p>span{
+    font-size:12px;
+    font-weight:lighter;
+    padding-left:90px;
+    color:#999;
+}
+.reg>p>a{
+    color:#137CE9;
+    font-size:12px;
+    text-decoration: none;
+    font-weight:lighter;
+}
+
+.reg>.reg_uname,.reg_upwd,.captcha,.phone{
+border:none;
+width:300px;
+height:45px;
+background:#F9F9F9;
+margin-left:22px;
+text-indent:35px;
+margin-top:6px;
+}
+/* .reg>.reg_uname{
+    margin-top:33px;
+} */
+.reg>.readme{
+    margin-top:10px;
+    margin-left:24px;
+
+}
+.reg>.readme+span{
+    font-size:12px;
+    color:#666;
+}
+.reg>.readme+span>a{
+    color:#137CE9;
+    text-decoration: none;
+}
+.reg>input:last-child{
+    width:298px;
+    height:40px;
+    background:#E5004B;
+    margin:0 auto;
+    text-align: center;
+    line-height: 40px;
+    margin-top:10px;  
+    font-size:20px;
+    color:#fff;
+    margin-left:20px;
+}
+.reg>div:nth-child(7){
+    position: relative;
+}
+.reg>div:nth-child(7)>a{
+   position: absolute;
+   top:7px;
+   right:20px;
+    width:105px;
+    height:45px;
+    background:#E5004B;
+    text-decoration: none;
+    text-align: center;
+    line-height: 45px;
+    color:#fff;
+    font-size:12px;
+}
+
+
+
+
+
+
+
+.banner_login>div:last-child{
+    width:100%; height:120px;
+    position: absolute;
+    top:480px;
+    left:0px; 
+    background:#F2F2F2;
+}
+.banner_login>div:last-child>p{
+    text-align: center;
+    margin-top:20px;
+    color:#999;
+    font-size:12px;
+}
+.banner_login>div:last-child>img{
+    padding-left:880px;
+    padding-top:10px;
+    
+}
